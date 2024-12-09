@@ -1,6 +1,5 @@
 import day5 from './index';
-import fs from 'fs';
-
+import * as fs from 'fs';
 let partOneInput: string;
 
 beforeAll(async () => {

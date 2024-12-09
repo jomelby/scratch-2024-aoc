@@ -48,7 +48,7 @@ class Day3 extends Day {
 
     solveForPartTwo(input: string): string {
         console.log(input);
-        const regex = /mul\(\d*,\d*\)/g;
+        // const regex = /mul\(\d*,\d*\)/g;
         const input_dont_split = input.split("don't()");
         // first element is considered a do
         let sum = this.sum_multiples(input_dont_split[0]);
