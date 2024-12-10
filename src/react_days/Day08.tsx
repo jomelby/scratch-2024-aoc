@@ -6,7 +6,7 @@ interface FormProps {
     setContent: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const Form: React.FC<FormProps> = ({ name, content, setContent }) => {
+export const Form: React.FC<FormProps> = ({ name, content, setContent }) => {
     const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
         setContent(event.target.value);
     };
