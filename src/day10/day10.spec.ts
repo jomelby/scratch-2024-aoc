@@ -4,7 +4,7 @@ import * as fs from 'fs';
 let partOneInput: string;
 
 beforeAll(async () => {
-    partOneInput = await fs.promises.readFile(`./inputs/day10/part1.txt`, 'utf-8');
+    partOneInput = await fs.promises.readFile(`./inputs/day10/part1_test.txt`, 'utf-8');
 });
 
 describe('On Day 10', () => {
