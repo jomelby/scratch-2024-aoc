@@ -11,7 +11,7 @@ beforeAll(async () => {
 
 describe('On Day 12', () => {
     it(`part1 is identity function`, () => {
-        expect(day12.solveForPartOne(partOneInput.toString())).toBe('1930');
+        expect(day12.solveForPartOne(partOneInput.toString())).toBe('1452678');
     }),
         it(`garden plot area`, () => {
             let gardenPlot = new GardenPlot('E', [8, 5]);
@@ -39,7 +39,7 @@ describe('On Day 12', () => {
             expect(gardenPlot.sides()).toBe(4);
         }),
         it(`part2 is identity function`, () => {
-            expect(day12.solveForPartTwo(partOneInput.toString())).toBe('1206');
+            expect(day12.solveForPartTwo(partOneInput.toString())).toBe('873584');
         })
 
 });
