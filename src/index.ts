@@ -12,6 +12,7 @@ import day11 from './day11/index';
 import day12 from './day12/index';
 import day13 from './day13/index';
 import day14 from './day14/index';
+import day15 from './day15/index';
 // MORE IMPORTS HERE
 const days: Day[] = [
   day0,
@@ -24,10 +25,11 @@ const days: Day[] = [
   day7,
   day10,
   day11,
-    day12,
-    day13,
-    day14,
-    // MORE DAYS HERE
+  day12,
+  day13,
+  day14,
+  day15,
+  // MORE DAYS HERE
 ];
 
 async function runDay(dayId: number) {

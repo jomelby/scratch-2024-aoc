@@ -66,7 +66,6 @@ class Day14 extends Day {
         const quadrants = this.getQuadrants(max_x, max_y);
         let quadrantScores = [];
         for (let quadrant of quadrants) {
-            console.log(quadrant);
             let score = 0;
             for (let robot of robots) {
                 if (robot.x >= quadrant[0][0] && robot.x <= quadrant[1][0] && robot.y >= quadrant[0][1] && robot.y <= quadrant[1][1]) {
