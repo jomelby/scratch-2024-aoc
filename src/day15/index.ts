@@ -279,7 +279,6 @@ class Day15 extends Day {
 
     solveForPartTwo(input: string): string {
         let warehouse = WarehousePartTwo.fromLines(input);
-        console.log(warehouse.toString());
         warehouse.playMoves();
         let sum = 0;
         for (let i in warehouse.boxes) {
