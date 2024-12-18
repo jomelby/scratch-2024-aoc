@@ -101,15 +101,11 @@ class Day16 extends Day {
             // check if we are at the end
             if (x === end[0] && y === end[1]) {
                 if (score < lowestScore) {
-                    console.log("erasing old score")
                     lowestScore = score;
                     tilesTraveled = new Set<string>();
                     path.forEach((pos) => tilesTraveled.add(pos));
-                    console.log(tilesTraveled.size);
                 } else if (score === lowestScore) {
-                    console.log("matching score");
                     path.forEach((pos) => tilesTraveled.add(pos));
-                    console.log(tilesTraveled.size);
                 } else {
                     continue;
                 }
@@ -143,7 +139,6 @@ class Day16 extends Day {
 
 
         }
-        console.log(lowestScore);
         return (tilesTraveled.size + 1).toString();
     }
 }
